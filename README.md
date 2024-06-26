@@ -18,7 +18,7 @@ The VM should satisfy the following requirements:
 * Windows Updates Disabled
 
 ## Installation instruction
-This section documents the steps to install FLARE-VM. You may also find usuful the [_Building a VM for Reverse Engineering and Malware Analysis! Installing the FLARE-VM_ video](https://www.youtube.com/watch?v=i8dCyy8WMKY).
+This section documents the steps to install FLARE-VM. You may also find useful the [_Building a VM for Reverse Engineering and Malware Analysis! Installing the FLARE-VM_ video](https://www.youtube.com/watch?v=i8dCyy8WMKY).
 
 ### Pre-installation
 * Prepare a Windows 10+ virtual machine
@@ -105,7 +105,7 @@ The installer will use [CustomStartLayout.xml](https://raw.githubusercontent.com
 ##### Things to Consider:
 - Items in the .xml that are not installed will not display in the taskbar (no broken links will be pinned)
 - Only applications (.exe files) or shortcuts to applications can be pinned.
-- If you would like to pin something that isn't an application, consider creating a shortcut that points to `cmd.exe` or `powershell` with arguments supplied that will perform that actions you would like.
+- If you would like to pin something that isn't an application, consider creating a shortcut that points to `cmd.exe` or `powershell` with arguments supplied that will perform actions you would like.
 - If you would like to make something run with admin rights, consider making a shortcut using `VM-Install-Shortcut` with the flag `-runAsAdmin` and pinning the shortcut.
 
 
@@ -124,7 +124,7 @@ For more examples, check the default configuration file: [config.xml](https://ra
 
 ## Contributing
 
-Want to get started contributing? See the links below to learn how. We are looking forward working with you to improve FLARE-VM! :sparkling_heart:
+Want to get started contributing? See the links below to learn how. We are looking forward to working with you to improve FLARE-VM! :sparkling_heart:
 
 ### FLARE-VM (this repository)
 * FLARE-VM installation script, and configuration: https://github.com/mandiant/flare-vm
@@ -147,7 +147,7 @@ Ensure you are running the latest version of the FLARE-VM installer and that you
 If the installation failed due to an issue in the installation script (e.g., `install.ps1`), [report the bug in FLARE-VM](https://github.com/mandiant/flare-vm/issues/new?labels=%3Abug%3A+bug&template=bug.yml).
 Provide all the information requested to ensure we are able to help you.
 
-> **Note:** Rarely should `install.ps1` be the reason for an installation failure. Most likely it is a specific package or set of packages that are failing (see below).
+> **Note:** Rarely should `install.ps1` be the reason for an installation failure. Most likely it is a specific package or set of packages that is failing (see below).
 
 ### Package Error
 Packages fail to install from time to time -- this is normal. The most common reasons are outlined below:
@@ -167,9 +167,9 @@ Please [report the bug in VM-Packages](https://github.com/mandiant/VM-Packages/i
 
 ### Updates
 
-Note that package updates are best effort and that updates are not being tested.
+Note that package updates are the best effort and that updates are not being tested.
 If you encounter errors, perform a fresh FLARE-VM install.
 
 ## Legal Notice
-> This download configuration script is provided to assist cyber security analysts in creating handy and versatile toolboxes for malware analysis environments. It provides a convenient interface for them to obtain a useful set of analysis tools directly from their original sources. Installation and use of this script is subject to the Apache 2.0 License. You as a user of this script must review, accept and comply with the license terms of each downloaded/installed package. By proceeding with the installation, you are accepting the license terms of each package, and acknowledging that your use of each package will be subject to its respective license terms.
+> This download configuration script is provided to assist cyber security analysts in creating handy and versatile toolboxes for malware analysis environments. It provides a convenient interface for them to obtain a useful set of analysis tools directly from their original sources. Installation and use of this script are subject to the Apache 2.0 License. You as a user of this script must review, accept and comply with the license terms of each downloaded/installed package. By proceeding with the installation, you are accepting the license terms of each package, and acknowledging that your use of each package will be subject to its respective license terms.
 
